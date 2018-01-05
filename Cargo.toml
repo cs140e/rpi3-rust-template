@@ -1,0 +1,25 @@
+[package]
+name = "template"
+version = "0.1.0"
+authors = ["Sergio Benitez <sbenitez@stanford.edu>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[profile.dev]
+panic = "abort"
+lto = true
+debug = true
+
+[profile.test]
+panic = "abort"
+lto = true
+debug = true
+
+[profile.release]
+panic = "abort"
+lto = true
+debug = true
+
+[dependencies]
+rlibc = "*"
