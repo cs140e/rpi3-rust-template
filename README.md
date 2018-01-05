@@ -5,7 +5,7 @@ How to use this:
   1. Install the `aarch64-none-elf` toolchain.
 
      * On Linux, download from [linaro]. Rename binaries to `aarch64-none-elf`.
-     * On Mac: `brew tap SergioBenitez/osxct && brew install aarch64-none-elf`
+     * On Mac: `brew tap SergioBenitez/osxct && brew install aarch64-none-elf`.
 
   2. Install Nightly Rust
 
